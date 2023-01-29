@@ -1,0 +1,119 @@
+/* scrollbar  */
+::-webkit-scrollbar {
+  width: 0px;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --width1: -100%;
+  --width2: -50%;
+  --time: 80s;
+}
+.text-running-inner {
+  animation: translateinfinite var(--time) linear infinite;
+}
+@keyframes translateinfinite {
+  100% {
+    transform: translateY(calc(var(--width1)));
+  }
+}
+@keyframes translateinfinite2 {
+  100% {
+    transform: translateY(calc(var(--width2)));
+  }
+}
+.fp-table {
+  justify-content: flex-start !important;
+}
+/* custom checkbox */
+.custom-checkbox {
+  border-style: none;
+  display: inline-flex;
+}
+.custom-checkbox > label {
+  text-align: center;
+  cursor: pointer;
+  padding: 1.2em;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  font-size: 1.25em;
+  width: 100%;
+}
+.custom-checkbox:not(:checked) > input {
+  position: absolute;
+  visibility: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+.custom-checkbox:not(:checked) > label.hadir {
+  background: #49a568;
+}
+.custom-checkbox:not(:checked) > label.tidak-hadir {
+  background: #e24346;
+}
+.custom-checkbox > input:checked ~ label.hadir {
+  background: #71be8b !important;
+}
+.custom-checkbox > input:checked ~ label.tidak-hadir {
+  background: #e57678 !important;
+}
+textarea {
+  resize: none;
+}
+.cursor {
+  transition-delay: 100ms;
+}
+.custom-checkbox .animated-active {
+  animation-delay: 200ms;
+}
+.btn.ver.active .btn-text {
+  display: none;
+}
+.btn.ver .btn-icon {
+  transition: all 1s ease;
+}
+.btn.ver.active .btn-icon {
+  transform: rotate(180deg);
+  margin-top: 0;
+}
+.btn-down.active {
+  opacity: 0 !important;
+}
+.navbar.sticky {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1.5rem);
+}
+
+.pesan-outer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.w-form-done {
+  display: none;
+  padding: 1.5em;
+  width: 37.5em;
+  background-color: #4c4c4c;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+/* Max Font Size */
+@media screen and (min-width: 1320px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .map-wrapper:hover .cursor {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@media screen and (max-width: 767) {
+  .custom-checkbox > label {
+    font-size: 1em;
+  }
+}
