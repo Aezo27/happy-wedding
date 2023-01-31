@@ -13,10 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-  return redirect('https://odama.io');
-});
+// Route::get('/', function () {
+//   return redirect('https://odama.io');
+// });
 
+Route::get('', [App\Http\Controllers\MainController::class, 'happy'])->name('happy');
 Route::get('/happy', [App\Http\Controllers\MainController::class, 'happy'])->name('happy');
-Route::get('/happy/generate', [App\Http\Controllers\MainController::class, 'happyGenerate'])->name('happyGenerate');
+Route::get('/generate', [App\Http\Controllers\MainController::class, 'happyGenerate'])->name('happyGenerate');
 Route::post('/happyAdd', [App\Http\Controllers\MainController::class, 'happyAdd'])->name('happyAdd');

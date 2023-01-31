@@ -7,9 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 :root {
-  --width1: -100%;
+  --width1: -50%;
   --width2: -50%;
-  --time: 80s;
+  --time: 40s;
 }
 .text-running-inner {
   animation: translateinfinite var(--time) linear infinite;
@@ -83,6 +83,7 @@ textarea {
 .navbar.sticky {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(1.5rem);
+  -webkit-backdrop-filter: blur(1.5rem);
 }
 
 .pesan-outer {
@@ -100,6 +101,13 @@ textarea {
   margin-top: 5em;
 }
 
+.modal-flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Max Font Size */
 @media screen and (min-width: 1320px) {
   body {
@@ -115,5 +123,20 @@ textarea {
 @media screen and (max-width: 767) {
   .custom-checkbox > label {
     font-size: 1em;
+  }
+  .footer {
+    min-height: 100vh;
+  }
+  #galery {
+    padding-bottom: 4.75em;
+  }
+  .map-wrapper {
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (min-device-height: 700px) and (max-device-height: 899px) and (orientation: landscape) {
+  body {
+    font-size: 0.85vw;
   }
 }

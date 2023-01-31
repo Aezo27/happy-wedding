@@ -9,7 +9,7 @@ body {
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Cotta free", sans-serif;
+  font-family: 'Cotta free', sans-serif;
   font-size: 38px;
   line-height: 44px;
   font-weight: 400;
@@ -30,45 +30,23 @@ p {
 .header {
   position: relative;
   height: 100vh;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
-    ),
-    url("../images/hero.webp");
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../images/hero.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/hero.webp');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.webp');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
 
 .header.section {
   overflow: hidden;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(0, 0, 0, 0.5)),
-    to(rgba(0, 0, 0, 0.5))
-  );
-  background-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-position: 0px 0px;
 }
 
 .preloader {
   position: fixed;
   z-index: 999;
-  display: block;
+  /* display: none; */
   width: 100vw;
   height: 100vh;
   background-color: #000;
@@ -138,20 +116,8 @@ p {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
-    ),
-    url("../images/hero.webp");
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../images/hero.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/hero.webp');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.webp');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   opacity: 1;
@@ -179,7 +145,7 @@ p {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: transparent;
-  font-family: "Cotta free", sans-serif;
+  font-family: 'Cotta free', sans-serif;
 }
 
 .container {
@@ -443,7 +409,7 @@ p {
 .content-wrapper.wish {
   position: relative;
   z-index: 2;
-  margin-top: 6.75em;
+  margin-top: 6em;
 }
 
 .info-group {
@@ -573,7 +539,7 @@ p {
 }
 
 .txt-20.cotta {
-  font-family: "Cotta free", sans-serif;
+  font-family: 'Cotta free', sans-serif;
 }
 
 .txt-20.lh-130 {
@@ -605,7 +571,6 @@ p {
   overflow: hidden;
   width: 40.8em;
   height: 35.5em;
-  margin-top: 10em;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-align: start;
@@ -786,7 +751,7 @@ p {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-image: url("../images/overlay-bg-hero-home.svg");
+  background-image: url('../images/overlay-bg-hero-home.svg');
   background-position: 0px 0px;
   background-size: auto;
   opacity: 0.55;
@@ -1031,6 +996,14 @@ p {
   -ms-flex-direction: column;
   flex-direction: column;
   grid-row-gap: 1em;
+  -webkit-transition: all 2000ms cubic-bezier(.23, 1, .32, 1);
+  transition: all 2000ms cubic-bezier(.23, 1, .32, 1);
+}
+
+.ani-wrapper.text-slide.active {
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
 }
 
 .ani-wrapper.slide-photo {
@@ -1176,7 +1149,7 @@ p {
 .txt-black.pin {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Cotta free", sans-serif;
+  font-family: 'Cotta free', sans-serif;
   color: #fff;
   font-size: 1em;
   line-height: 1.3em;
@@ -1224,30 +1197,19 @@ p {
   z-index: 1;
   width: 100%;
   height: 6.9em;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#000),
-    to(hsla(0, 0%, 100%, 0))
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(hsla(0, 0%, 100%, 0)));
   background-image: linear-gradient(180deg, #000, hsla(0, 0%, 100%, 0));
 }
 
 .overlay.bot {
   bottom: 0px;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(#000),
-    to(hsla(0, 0%, 100%, 0))
-  );
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#000), to(hsla(0, 0%, 100%, 0)));
   background-image: linear-gradient(0deg, #000, hsla(0, 0%, 100%, 0));
 }
 
 .comment-wrapper {
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
@@ -1255,7 +1217,6 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  align-items: flex-start;
 }
 
 .coment-item {
@@ -1302,9 +1263,94 @@ p {
   display: none;
 }
 
+.menu-open {
+  overflow: hidden;
+}
+
+.wish-sent {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 99;
+  display: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.thx-modal-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 43.625em;
+  padding: 2.5em 3em 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 0.875em;
+  grid-row-gap: 0.875em;
+  background-color: #fff;
+}
+
+.hr-img {
+  width: 25.5em;
+}
+
+.close-btn {
+  width: 100%;
+  padding: 1.5em;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 991px) {
+  .section.relative {
+    height: auto;
+    padding-top: 6.75em;
+    padding-bottom: 17.15em;
+  }
+
+  .section.relative.overflow {
+    height: auto;
+    padding-top: 6.25em;
+    padding-bottom: 6.25em;
+  }
+
+  .section.relative.overflow.footer {
+    height: 100vh;
+  }
+
+  .section.relative.section-1 {
+    padding-bottom: 0em;
+  }
+
+  .sect-4-text {
+    height: auto;
+  }
+
   .floating-img-wrapper {
     display: none;
+  }
+
+  .map-wrapper {
+    margin-top: 10em;
   }
 
   .cursor-wrapper {
@@ -1312,16 +1358,27 @@ p {
   }
 
   .cursor-wrapper.no-strike.modal-btn {
-    left: 1em;
-    top: auto;
-    right: auto;
-    bottom: 1em;
-    display: block;
+    left: 0em;
+    top: 0px;
+    right: 0px;
+    bottom: 0em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .cursor {
-    width: 10em;
-    height: 10em;
+    width: 6.25em;
+    height: 6.25em;
     opacity: 1;
     -webkit-transform: none;
     -ms-transform: none;
@@ -1407,7 +1464,7 @@ p {
 
   .section.relative.overflow {
     min-height: 0vh;
-    padding-bottom: 0em;
+    padding-bottom: 6.25em;
   }
 
   .section.relative.overflow.footer {
@@ -1486,7 +1543,7 @@ p {
 
   .sect-4-text {
     width: auto;
-    height: 17.9em;
+    height: auto;
     margin-top: 0em;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -1648,6 +1705,19 @@ p {
   .mob {
     display: block;
   }
+
+  .thx-modal-wrapper {
+    width: auto;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+  }
+
+  .close-btn {
+    padding: 1.125em;
+  }
 }
 
 #w-node-efeb96fb-7946-1cef-76dc-3cd865f6a3c1-6d8f94e7 {
@@ -1684,15 +1754,15 @@ p {
 }
 
 @font-face {
-  font-family: "Cour";
-  src: url("../fonts/cour.ttf") format("truetype");
+  font-family: 'Cour';
+  src: url('../fonts/cour.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Cotta free";
-  src: url("../fonts/Cotta-Free.otf") format("opentype");
+  font-family: 'Cotta free';
+  src: url('../fonts/Cotta-Free.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

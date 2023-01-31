@@ -43,59 +43,43 @@
   </style>
 </head>
 
-<body>
+<body class="menu-open">
   <div data-w-id="a8e4e0af-f940-40af-97e6-2d36fec59fdb" class="preloader">
     <div data-w-id="4ddf00e1-31d4-1756-60d3-721516b63a7e" class="photo-wrapper">
-      <div data-w-id="43d2f85e-9986-6755-6cdb-b63f1c3ff76a" class="photo-item"><img src="images/1.webp" loading="eager" sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, 18vw" srcset="images/1-p-500.png 500w, images/1.webp 720w" alt=""
-          class="img-preload">
+      <div data-w-id="43d2f85e-9986-6755-6cdb-b63f1c3ff76a" class="photo-item"><img src="images/1.webp" loading="eager" sizes="100vw" srcset="images/1-p-500.png 500w, images/1.webp 720w" alt="" class="img-preload">
         <h1 class="loading-text txt-40">10%</h1>
         <div data-w-id="97cd9005-271f-6b64-53f2-ccc72f9cd3ca" class="hidden-img"></div>
       </div>
-      <div data-w-id="4a30f434-a80c-d02e-af00-450f71ac1223" style="display:none" class="photo-item img-2"><img src="images/2.webp" loading="eager" sizes="(max-width: 767px) 71vw, 20vw" srcset="images/2-p-500.png 500w, images/2.webp 792w"
-          alt="" class="img-preload">
+      <div data-w-id="4a30f434-a80c-d02e-af00-450f71ac1223" style="display:none" class="photo-item img-2"><img src="images/2.webp" loading="eager" sizes="100vw" srcset="images/2-p-500.png 500w, images/2.webp 792w" alt="" class="img-preload">
         <h1 class="loading-text txt-40">20%</h1>
       </div>
-      <div data-w-id="e56694c1-0b3e-0430-9075-9921c43e5ffa" style="display:none" class="photo-item img-3"><img src="images/3.webp" loading="eager" sizes="(max-width: 767px) 77vw, 22vw"
-          srcset="images/3-p-500.png 500w, images/3-p-800.png 800w, images/3.webp 864w" alt="" class="img-preload">
+      <div data-w-id="e56694c1-0b3e-0430-9075-9921c43e5ffa" style="display:none" class="photo-item img-3"><img src="images/3.webp" loading="eager" sizes="100vw" srcset="images/3-p-500.png 500w, images/3-p-800.png 800w, images/3.webp 864w" alt="" class="img-preload">
         <h1 class="loading-text txt-40">40%</h1>
       </div>
-      <div data-w-id="5b34c6b9-84d7-ec29-ab25-0bd3e1930959" style="display:none" class="photo-item img-4"><img src="images/4.webp" loading="eager" sizes="(max-width: 767px) 84vw, 24vw"
-          srcset="images/4-p-500.png 500w, images/4-p-800.png 800w, images/4.webp 936w" alt="" class="img-preload">
+      <div data-w-id="5b34c6b9-84d7-ec29-ab25-0bd3e1930959" style="display:none" class="photo-item img-4"><img src="images/4.webp" loading="eager" sizes="100vw" srcset="images/4-p-500.png 500w, images/4-p-800.png 800w, images/4.webp 936w" alt="" class="img-preload">
         <h1 class="loading-text txt-40">60%</h1>
       </div>
-      <div data-w-id="52dd2948-6c11-b19b-73be-7f42564418a4" style="display:none" class="photo-item img-5"><img src="images/5.webp" loading="eager" sizes="(max-width: 767px) 90vw, 25vw"
-          srcset="images/5-p-500.png 500w, images/5-p-800.png 800w, images/5.webp 1008w" alt="" class="img-preload">
+      <div data-w-id="52dd2948-6c11-b19b-73be-7f42564418a4" style="display:none" class="photo-item img-5"><img src="images/5.webp" loading="eager" sizes="100vw" srcset="images/5-p-500.png 500w, images/5-p-800.png 800w, images/5.webp 1008w" alt="" class="img-preload">
         <h1 class="loading-text txt-40">80%</h1>
       </div>
-      <div data-w-id="9598a04c-178e-9a51-109a-c6f90871e170" style="display:none" class="photo-item img-6"><img src="images/6.webp" loading="eager" sizes="(max-width: 767px) 97vw, 27vw"
-          srcset="images/6-p-500.png 500w, images/6-p-800.png 800w, images/6-p-1080.webp 1080w, images/6.webp 1080w" alt="" class="img-preload">
+      <div data-w-id="9598a04c-178e-9a51-109a-c6f90871e170" style="display:none" class="photo-item img-6"><img src="images/6.webp" loading="eager" sizes="100vw" srcset="images/6-p-500.png 500w, images/6-p-800.png 800w, images/6-p-1080.webp 1080w, images/6.webp 1080w" alt="" class="img-preload">
         <h1 class="loading-text txt-40">100%</h1>
-        <div data-w-id="62084372-464f-e449-1d53-19b9be078ab1"
-          style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-          class="hidden-img"></div>
+        <div data-w-id="62084372-464f-e449-1d53-19b9be078ab1" style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hidden-img"></div>
       </div>
     </div>
-    <div data-w-id="3dd66a2b-4f2d-8ae4-6013-21537c302e5f"
-      style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-      class="photo-item-wrapper bg"></div>
+    <div data-w-id="3dd66a2b-4f2d-8ae4-6013-21537c302e5f" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="photo-item-wrapper bg"></div>
   </div>
   <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
     <div class="container container-nav w-container">
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="cropper">
-          <a href="#date" data-w-id="f127b7c6-be4d-3134-ebd3-e9557b1d761f"
-            style="-webkit-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);-moz-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);-ms-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);opacity:0"
-            class="nav-link w-nav-link">Event Detail</a>
+          <a href="#date" data-w-id="f127b7c6-be4d-3134-ebd3-e9557b1d761f" style="-webkit-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0" class="nav-link w-nav-link">Event Detail</a>
         </div>
         <div class="cropper">
-          <a href="#gallery" data-w-id="2dfbd3a8-8cad-db8b-8c09-9a1baac5c05a"
-            style="-webkit-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);-moz-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);-ms-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);opacity:0"
-            class="nav-link w-nav-link">Gallery</a>
+          <a href="#gallery" data-w-id="2dfbd3a8-8cad-db8b-8c09-9a1baac5c05a" style="-webkit-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0" class="nav-link w-nav-link">Gallery</a>
         </div>
         <div class="cropper">
-          <a href="#wish" data-w-id="f9f7c179-4fda-6faf-3cef-5b4678d5c058"
-            style="-webkit-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);-moz-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);-ms-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(5deg) skew(0, 0);opacity:0"
-            class="nav-link w-nav-link">Appreciate</a>
+          <a href="#wish" data-w-id="f9f7c179-4fda-6faf-3cef-5b4678d5c058" style="-webkit-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0" class="nav-link w-nav-link">Wish</a>
         </div>
       </nav>
       <div class="w-nav-button">
@@ -156,7 +140,7 @@
     </header>
     <div id="date" data-w-id="f5d15092-b1d6-3996-3e5d-497f9770cb65" class="section relative section-1">
       <div class="container w-container">
-        <div class="content-wrapper">
+        <div class="content-wrapper date">
           <div class="info-group">
             <div class="cropper">
               <h1 data-w-id="cf5b0b53-d7ad-c15b-a94e-3de33be9c4c6"
@@ -336,7 +320,7 @@
         <div data-w-id="f222d034-e979-27c0-73eb-89f36d453736"
           style="-webkit-transform:translate3d(0, -2em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="ani-wrapper btn-down">
-          <a href="#date" data-w-id="6992f69a-287a-ff32-ec04-5cb98080e9fe" class="btn ver w-inline-block">
+          <a href="#gallery" data-w-id="6992f69a-287a-ff32-ec04-5cb98080e9fe" class="btn ver w-inline-block" id="story-btn">
             <p class="btn-text">our<br>story</p>
             <div class="btn-icon bot w-embed"><svg width="100%" height="100%" viewbox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 0L10 24" stroke="white" stroke-width="2"></path>
@@ -367,144 +351,88 @@
       <div class="floating-img-wrapper gal">
         <div class="left wrapper">
           <div class="slide-photo-weapper text-running-inner">
-            <div class="ani-wrapper slide-photo"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy"
-                sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w"
-                alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw"
-                srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
-            <div class="ani-wrapper slide-photo _2nd"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy"
-                sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w"
-                alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw"
-                srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
-            <div class="ani-wrapper slide-photo _2nd"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy"
-                sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w"
-                alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw"
-                srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
-            <div class="ani-wrapper slide-photo _2nd"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy"
-                sizes="(max-width: 479px) 64vw, (max-width: 767px) 65vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w"
-                alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 180.19097900390625px, 18vw"
-                srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
+            <div class="ani-wrapper slide-photo"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
+            <div class="ani-wrapper slide-photo _2nd"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
+            <div class="ani-wrapper slide-photo _2nd"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
+            <div class="ani-wrapper slide-photo _2nd"><img src="images/1-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/1-hover-p-500.png 500w, images/1-hover-p-800.png 800w, images/1-hover-p-1080.webp 1080w, images/1-hover.webp 1080w" alt="" class="float-img img-1"><img src="images/3-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/3-hover-p-500.png 500w, images/3-hover.webp 720w" alt="" class="float-img img-2"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 64vw, (max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3 left"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 43vw, (max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2"></div>
           </div>
         </div>
         <div class="right wrapper">
           <div class="slide-photo-weapper text-running-inner">
-            <div class="ani-wrapper slide-photo right"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt=""
-                class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w"
-                alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
-            <div class="ani-wrapper slide-photo right _2nd"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt=""
-                class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w"
-                alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
-            <div class="ani-wrapper slide-photo right _2nd"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt=""
-                class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w"
-                alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
-            <div class="ani-wrapper slide-photo right _2nd"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy"
-                sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt=""
-                class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 180.19097900390625px, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w"
-                alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 270.295166015625px, 27vw"
-                srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
+            <div class="ani-wrapper slide-photo right"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt="" class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
+            <div class="ani-wrapper slide-photo right _2nd"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt="" class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
+            <div class="ani-wrapper slide-photo right _2nd"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt="" class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
+            <div class="ani-wrapper slide-photo right _2nd"><img src="images/5-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/5-hover-p-500.png 500w, images/5-hover-p-800.png 800w, images/5-hover-p-1080.webp 1080w, images/5-hover.webp 1080w" alt="" class="float-img img-3"><img src="images/4-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/4-hover-p-500.png 500w, images/4-hover-p-800.png 800w, images/4-hover-p-1080.webp 1080w, images/4-hover.webp 1080w" alt="" class="float-img img-9"><img src="images/7-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 18vw" srcset="images/7-hover-p-500.png 500w, images/7-hover.webp 720w" alt="" class="float-img img-2 right"><img src="images/8-hover.webp" loading="lazy" sizes="(max-width: 991px) 100vw, 27vw" srcset="images/8-hover-p-500.png 500w, images/8-hover-p-800.png 800w, images/8-hover-p-1080.webp 1080w, images/8-hover.webp 1080w" alt="" class="float-img img-9"></div>
           </div>
         </div>
       </div>
-      <div class="sect-4-text">
-        <div data-w-id="40b33354-8e29-92ff-23d8-6998f8aec5ab" class="ani-wrapper text-slide">
-          <div class="cropper">
-            <h1 data-w-id="eebfa128-dd58-6cf7-0a57-ebbbc1b521d8"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">Berawal dari rasa penasaran</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="ab4e4f27-f419-070d-0ef0-571654164fc0"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">yang berujung kasmaran,</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="7acb7256-1d04-2f70-823f-3e2bf245390f"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">Happy berkenalan dengan</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="b3f4b6df-5e99-0489-6f4a-500c2d73c406"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">Jelly melalui instagram.</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="9848726e-af3a-4019-aa20-be8d83842201"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">Mereka memiliki passion dan</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="8417613b-8639-744f-d852-304f4d289a20"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">pekerjaan yang sama dan</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="32a04633-a935-29c9-8968-849566bea7db"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">sesekali bekerja bersama.</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="1f6030a3-acb9-46be-c617-9ac3f92bd268"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">Berjalannya waktu, Happy</h1>
-          </div>
-          <div class="cropper">
-            <h1 data-w-id="43fbcf18-80db-7619-eefe-86275dd01251"
-              style="-webkit-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-moz-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);-ms-transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);transform:translate3d(0, 210%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(10deg) skew(0, 0);opacity:0"
-              class="txt-48">nekad menyatakan cintanya</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">pada tanggal 14 Maret 2021.</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">Sejak hari itu mereka mulai</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">berbagi rasa atas dasar cinta.</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">Dan akhirnya pada akhirnya</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">mereka memutuskan untuk</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">lanjut ke meja pelaminan</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">dengan harapan untuk lebih</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">dalam berbagi cinta,</h1>
-          </div>
-          <div class="cropper">
-            <h1 class="txt-48">meraih ridho yang maha esa.</h1>
+      <div class="content-wrapper mid">
+        <div data-w-id="eebfa128-dd58-6cf7-0a57-ebbbc1b521d1" class="sect-4-text">
+          <div class="ani-wrapper text-slide">
+            <div class="cropper">
+              <h1 data-w-id="eebfa128-dd58-6cf7-0a57-ebbbc1b521d8" class="txt-48">Berawal dari rasa penasaran</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="ab4e4f27-f419-070d-0ef0-571654164fc0" class="txt-48">yang berujung kasmaran,</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="7acb7256-1d04-2f70-823f-3e2bf245390f" class="txt-48">Happy berkenalan dengan</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="b3f4b6df-5e99-0489-6f4a-500c2d73c406" class="txt-48">Jelly melalui instagram.</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="9848726e-af3a-4019-aa20-be8d83842201" class="txt-48">Mereka memiliki passion dan</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="8417613b-8639-744f-d852-304f4d289a20" class="txt-48">pekerjaan yang sama dan</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="32a04633-a935-29c9-8968-849566bea7db" class="txt-48">sesekali bekerja bersama.</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="1f6030a3-acb9-46be-c617-9ac3f92bd268" class="txt-48">Berjalannya waktu, Happy</h1>
+            </div>
+            <div class="cropper">
+              <h1 data-w-id="43fbcf18-80db-7619-eefe-86275dd01251" class="txt-48">nekad menyatakan cintanya</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">pada tanggal 14 Maret 2021.</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">Sejak hari itu mereka mulai</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">berbagi rasa atas dasar cinta.</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">Dan akhirnya pada akhirnya</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">mereka memutuskan untuk</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">lanjut ke meja pelaminan</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">dengan harapan untuk lebih</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">dalam berbagi cinta,</h1>
+            </div>
+            <div class="cropper">
+              <h1 class="txt-48">meraih ridho yang maha esa.</h1>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div data-w-id="03929250-eb8b-2f7e-0e3f-8b932ee19123" class="section relative overflow">
       <div class="container mid relative w-container">
-        <div class="content-wrapper">
+        <div class="content-wrapper mid">
           <div data-w-id="a6273f50-ca35-1ed7-ddd2-b30ce0020db1"
             style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(1.2, 1.2, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.2, 1.2, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.2, 1.2, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.2, 1.2, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-            class="doa"><img src="images/يَannisa.webp" loading="lazy" sizes="(max-width: 767px) 100vw, 64vw" srcset="images/يَannisa-p-500.png 500w, images/يَannisa.webp 1655w" alt="" class="desk"><img src="images/annisa2.png"
+            class="doa"><img src="images/annisa.webp" loading="lazy" sizes="(max-width: 767px) 100vw, 64vw" srcset="images/َannisa-p-500.png 500w, images/annisa.webp 1655w" alt="" class="desk"><img src="images/annisa2.png"
               loading="lazy" alt="" class="mob">
             <p class="txt-20 txt-grey lh-130">Hai sekalian manusia, bertakwalah kepada Tuhan-mu yang telah menciptakan kamu dari seorang diri, dan dari padanya Allah menciptakan isterinya; dan dari pada keduanya Allah memperkembang biakkan laki-laki
               dan perempuan yang banyak. Dan bertakwalah kepada Allah yang dengan (mempergunakan) nama-Nya kamu saling meminta satu sama lain, dan (peliharalah) hubungan silaturrahim. Sesungguhnya Allah selalu menjaga dan mengawasi kamu.</p>
@@ -619,12 +547,22 @@
       </div>
     </section>
   </main>
+  <div class="wish-sent">
+    <div class="modal-flex">
+        <div class="thx-modal-wrapper">
+          <h1 class="txt-64 txt-black">Terimakasih</h1><img src="images/Design-Depan-1.jpg" loading="eager" sizes="100vw" srcset="images/Design-Depan-1.jpg 500w, images/Design-Depan-1.jpg 800w" alt="" class="hr-img">
+          <a id="close-modal" href="#" class="close-btn w-inline-block">
+            <p class="btn-text">Back to home</p>
+          </a>
+        </div>
+    </div>
+  </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63bb7b84f1d829298249de34" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="{{ asset('js/webflow.js') }}" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.extensions.min.js"></script>
-  <script src="https://uploads-ssl.webflow.com/63116a2c2e256f544530a58f/6343d4182bdcd24d7f301001_fullpage.scrollHorizontally.min.js.txt"></script>
-  <script src="{{ asset('js/custom.js') }}"></script>
+  <!--<script src="https://uploads-ssl.webflow.com/63116a2c2e256f544530a58f/6343d4182bdcd24d7f301001_fullpage.scrollHorizontally.min.js.txt"></script>-->
+  <script src="{{ asset('js/custom.js') }}?v=1.0.0"></script>
   <script>
     const submitBtn = $("#submitBtn"),
       form = $("#wish-form");
@@ -642,13 +580,27 @@
         },
         success: function(response) {
           submitBtn.prop('disabled', false)
+          submitBtn.html('Kirim Ucapan');
           if (response.alert == "success") {
             form.css("display", "none")
-            $('.w-form-done').css("display", "block")
+            // $('.w-form-done').css("display", "block")
+            $('.wish-sent').fadeIn();
+            $('.body').addClass('menu-open');
+            if (window.innerWidth > 991) {
+                fullpage_api.setAllowScrolling(false);
+            }
           }
           console.log(response);
         },
       });
+    })
+    $('#close-modal').on('click', function(e) {
+        e.preventDefault();
+         $('.wish-sent').fadeOut();
+         $('.body').removeClass('menu-open');
+         if (window.innerWidth > 991) {
+            fullpage_api.setAllowScrolling(true);
+        }
     })
   </script>
 </body>
