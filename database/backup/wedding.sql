@@ -3,15 +3,15 @@
 
  Source Server         : localhost
  Source Server Type    : MySQL
- Source Server Version : 100427
+ Source Server Version : 100427 (10.4.27-MariaDB)
  Source Host           : localhost:3306
  Source Schema         : wedding
 
  Target Server Type    : MySQL
- Target Server Version : 100427
+ Target Server Version : 100427 (10.4.27-MariaDB)
  File Encoding         : 65001
 
- Date: 30/01/2023 02:32:33
+ Date: 31/01/2023 16:42:32
 */
 
 SET NAMES utf8mb4;
@@ -26,7 +26,7 @@ CREATE TABLE `data`  (
   `nama` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `no_hp` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 197 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 197 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of data
@@ -139,19 +139,28 @@ CREATE TABLE `wishes`  (
   `nama` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `pesan` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `status` enum('0','1') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `created_at` datetime(0) NULL DEFAULT NULL,
-  `updated_at` datetime(0) NULL DEFAULT NULL,
+  `created_at` datetime NULL DEFAULT NULL,
+  `updated_at` datetime NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 17 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of wishes
 -- ----------------------------
-INSERT INTO `wishes` VALUES (1, 'Rama Sullivan', 'Lorem ipsum dolor sit amet', '1', '2023-01-29 21:04:40', NULL);
-INSERT INTO `wishes` VALUES (2, 'Fandhitia Giovani', 'asduasdah asdasidunasdiasd asdaoiweajn ', '1', '2023-01-30 21:04:40', NULL);
-INSERT INTO `wishes` VALUES (3, 'Rohmad Khoirudin', 'Semoga menjadi keluarga yang mawardah, sakinah dan warohmah', '1', '2023-01-29 00:38:01', NULL);
+INSERT INTO `wishes` VALUES (1, 'Rama Sullivan', 'Selamat hep, semoga lancar tanpa ada suatu halangan apa pun.', '1', '2023-01-29 21:04:40', NULL);
+INSERT INTO `wishes` VALUES (2, 'Fandhitia Giovani', 'Selamat mas, lancar pokok e, bismillah otw nyusul, wkwkkw', '1', '2023-01-30 21:04:40', NULL);
+INSERT INTO `wishes` VALUES (3, 'Rohmad Khoirudin', 'Mantab mang hep,  semoga jadi keluarga yang sakinah, mawaddah dan warahmah.', '1', '2023-01-29 00:38:01', NULL);
 INSERT INTO `wishes` VALUES (4, 'Nayu', 'Selamat mas hep, semoga lancar sampai hari H, hehe', '1', '2023-01-29 18:38:49', '2023-01-29 18:38:49');
-INSERT INTO `wishes` VALUES (5, 'Yoga SW', 'mantab bos', '0', '2023-01-29 18:46:07', '2023-01-29 18:46:07');
-INSERT INTO `wishes` VALUES (6, 'Listian', 'testing oeee', '0', '2023-01-29 18:47:51', '2023-01-29 18:47:51');
+INSERT INTO `wishes` VALUES (5, 'Yoga SW', 'Samawa okashira, semoga lancar.', '1', '2023-01-29 18:46:07', '2023-01-29 18:46:07');
+INSERT INTO `wishes` VALUES (6, 'Listian', 'Happy wedding hep, selamat menempuh hidup baru', '1', '2023-01-29 18:47:51', '2023-01-29 18:47:51');
+INSERT INTO `wishes` VALUES (8, 'Clara', 'Happy wedding mas Happy, wishing you a long and happy marriage!', '1', '2023-01-30 11:06:33', NULL);
+INSERT INTO `wishes` VALUES (9, 'Xenyx', 'Happy wedding yaaa, turut berbahagia akhirnya kalian bersatu dengan janji suci, semoga pernikahan kalian berkah dan selalu menjadi keluarga kecil yg sakinah, mawaddah warrahmahh.', '1', '2023-01-30 11:06:30', NULL);
+INSERT INTO `wishes` VALUES (10, 'Dicky', 'I hope to have a happy relationship ending like you guys', '1', '2023-01-30 11:06:28', NULL);
+INSERT INTO `wishes` VALUES (11, 'Rendra', 'Turut berbahagia, Semoga menjadi pasangan yang sejati sampai dunia akhirat, semoga dikaruniai keturunan yang saleh dan salehah, dan minta doanya semoga bisa cepat menyusul.', '1', '2023-01-30 11:08:19', NULL);
+INSERT INTO `wishes` VALUES (12, 'Faza', 'Mantab mas, lancar pokok e.', '1', '2023-01-30 11:09:55', NULL);
+INSERT INTO `wishes` VALUES (13, 'Dimas', 'Selamat yo mas', '1', '2023-01-30 11:10:53', NULL);
+INSERT INTO `wishes` VALUES (14, 'Testing', 'asdasdasdasd', '1', '2023-01-31 09:00:41', '2023-01-31 09:00:41');
+INSERT INTO `wishes` VALUES (15, 'Odama', 'Selamat pak boss', '1', '2023-01-31 09:08:44', '2023-01-31 09:08:44');
+INSERT INTO `wishes` VALUES (16, 'Testing', 'asdasdasd', '0', '2023-01-31 09:14:59', '2023-01-31 09:14:59');
 
 SET FOREIGN_KEY_CHECKS = 1;
