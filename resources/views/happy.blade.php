@@ -183,7 +183,7 @@
                       <path d="M12 12.82L9 10.76" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                       <path d="M12 12.82L16.11 9.72998" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg></div>
-                  <p class="btn-text">08.00 WIB - Selesai,</p>
+                  <p class="btn-text">06.15 WIB - Selesai,</p>
                 </div>
               </div>
               <div class="cropper">
@@ -243,7 +243,7 @@
                       <path d="M12 12.82L9 10.76" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                       <path d="M12 12.82L16.11 9.72998" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg></div>
-                  <p class="btn-text">11.00 WIB - Selesai,</p>
+                  <p class="btn-text">10.00 WIB - Selesai,</p>
                 </div>
               </div>
               <div class="cropper">
@@ -406,7 +406,7 @@
               <h1 class="txt-48">berbagi rasa atas dasar cinta.</h1>
             </div>
             <div class="cropper">
-              <h1 class="txt-48">Dan akhirnya pada akhirnya</h1>
+              <h1 class="txt-48">Dan pada akhirnya</h1>
             </div>
             <div class="cropper">
               <h1 class="txt-48">mereka memutuskan untuk</h1>

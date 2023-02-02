@@ -20,4 +20,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('', [App\Http\Controllers\MainController::class, 'happy'])->name('happy');
 Route::get('/happy', [App\Http\Controllers\MainController::class, 'happy'])->name('happy');
 Route::get('/generate', [App\Http\Controllers\MainController::class, 'happyGenerate'])->name('happyGenerate');
+Route::get('/wish', [App\Http\Controllers\MainController::class, 'wish'])->name('wish');
 Route::post('/happyAdd', [App\Http\Controllers\MainController::class, 'happyAdd'])->name('happyAdd');

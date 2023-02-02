@@ -61,4 +61,9 @@ class MainController extends Controller
     $datas = Data::all();
     return view('happy_generate', compact("datas"));
   }
+  public function wish()
+  {
+    $datas = Wish::all();
+    return view('happy_wish', compact("datas"));
+  }
 }
