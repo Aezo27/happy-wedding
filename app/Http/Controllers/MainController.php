@@ -23,12 +23,19 @@ class MainController extends Controller
    *
    * @return \Illuminate\Contracts\Support\Renderable
    */
-  public function happy()
+  public function happy(Request $req)
   {
     $pesans = Wish::all();
     $pesans2 = Wish::orderBy('nama')->get();
     $pesans3 = Wish::orderBy('created_at', 'desc')->get();
-    return view('happy', compact("pesans", "pesans2", "pesans3"));
+
+    $cek = Data::where('nama', $req->nama)->first();
+
+    if ($cek) {
+      return view('happy', compact("pesans", "pesans2", "pesans3"));
+    } else {
+      return "Mohon maaf hanya untuk undangan saja";
+    }
   }
 
   public function happyAdd(Request $req)
